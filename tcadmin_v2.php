@@ -56,13 +56,13 @@ $modulo_servidor_produto['tcadmin_v2']=array(
 	// Game Information
 	array('textfield',	'ID de Jogo:',	'gameid',	300,	'',		false,	'',		'Apenas caso deseje criar um serviço de jogo. <strong>Deixe em branco para não utilizar</strong>.'),
 	array('textfield',	'Slots de Jogo:',	'gameslots',	300,	'',		false,	'',		'Apenas caso deseje criar um serviço de jogo. <strong>Deixe em branco para não utilizar</strong>.'),
-	array('checkbox',	'Utilizar Marca (Jogo):',	'gamebranded',	300,	'',		false,	'',		'Apenas caso deseje criar um serviço de jogo.'),
+	array('checkbox',	'Utilizar Marca (Jogo):',	'gamebranded',	300,	'',		false,	array('SIM','Possui marca'),		'Apenas caso deseje criar um serviço de jogo.'),
 	array('textfield',	'ID do datacenter de Jogo:',	'gamedatacenter',	300,	'',		false,	'',		'Apenas caso deseje criar um serviço de jogo. <strong>Deixe em branco para não utilizar</strong>.'),
 
 	// Voice Information
 	array('textfield',	'ID de Voz:',	'voiceid',	300,	'',		false,	'',		'Apenas caso deseje criar um serviço de voz. Utilize <code>TEAMSPEAK3</code> para servidor TeamSpeak 3. <strong>Deixe em branco para não utilizar</strong>.'),
 	array('textfield',	'Slots de Voz:',	'voiceslots',	300,	'',		false,	'',		'Apenas caso deseje criar um serviço de voz. <strong>Deixe em branco para não utilizar</strong>.'),
-	array('checkbox',	'Utilizar Marca (Voz):',	'voicebranded',	300,	'',		false,	'',		'Apenas caso deseje criar um serviço de voz.'),
+	array('checkbox',	'Utilizar Marca (Voz):',	'voicebranded',	300,	'',		false,	array('SIM','Possui marca'),		'Apenas caso deseje criar um serviço de voz.'),
 	array('textfield',	'ID do datacenter de Voz:',	'voicedatacenter',	300,	'',		false,	'',		'Apenas caso deseje criar um serviço de voz. <strong>Deixe em branco para não utilizar</strong>.'),
 );
 
